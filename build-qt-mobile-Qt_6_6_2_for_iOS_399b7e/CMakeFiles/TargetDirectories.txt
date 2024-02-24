@@ -1,5 +1,0 @@
-/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile.dir
-/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/install.dir
-/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile_autogen.dir
-/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/ALL_BUILD.dir
-/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/ZERO_CHECK.dir
