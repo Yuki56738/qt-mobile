@@ -1,0 +1,1165 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		43FC4EEBB9664D35AF6D309F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 90800CB6CF5847B489D0BB8B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				42526889B6A9433F85C5F180 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				5E8E3C48D65C4EDAB442556D /* PBXTargetDependency */,
+				6E0BDAB59DCF4D6286CBAF06 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		8FE989DE76EF4CDD9913D8BB /* qt-mobile_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DA14D0CDEF384A5ABAA077C4 /* Build configuration list for PBXAggregateTarget "qt-mobile_autogen" */;
+			buildPhases = (
+				FDC80D61891DCA5FBF5B5016 /* Generate CMakeFiles/qt-mobile_autogen */,
+			);
+			dependencies = (
+				2044394C42E048AF89804FF9 /* PBXTargetDependency */,
+			);
+			name = "qt-mobile_autogen";
+			productName = "qt-mobile_autogen";
+		};
+		A111BDD465DA442A9AA407EC /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 311172560F644D4E8CC90229 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9078121BF0B2AA82FD9698B4 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E884ADD3EA1C4B98A602F6BD /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 68ECCA0E6361497386B56000 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				95AC8B0072744984BEC8C2BD /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02CDCC17DF804DE09DA73722 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/.qt/launch_screen_storyboards/qt_mobile/LaunchScreen.storyboard */ = {isa = PBXBuildFile; fileRef = AD4A5A9BD5424242B183809E /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/.qt/launch_screen_storyboards/qt_mobile/LaunchScreen.storyboard */; };
+		1DE23FB386F74C0F8F375FB9 /* /Users/user/dev/c/qt-mobile/qt-mobile/mainwindow.h */ = {isa = PBXBuildFile; fileRef = 2DDDBD5D255B48BD90C96191 /* /Users/user/dev/c/qt-mobile/qt-mobile/mainwindow.h */; };
+		3B60A062151A4D4B99689011 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/include/ui_mainwindow.h */ = {isa = PBXBuildFile; fileRef = 0CEBBC63094149DDA17E1637 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/include/ui_mainwindow.h */; };
+		444FF7DFC8324C6A87060BF2 /* /Users/user/dev/c/qt-mobile/qt-mobile/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 61D52337A36C4710A1836345 /* /Users/user/dev/c/qt-mobile/qt-mobile/CMakeLists.txt */; };
+		6A2E608BA6B84985B6692C81 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 089BACBB912247F782F81576 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile.dir/Info.plist */; };
+		8CE4C17FFA594AD8ACDA3017 /* /Users/user/dev/c/qt-mobile/qt-mobile/main.cpp */ = {isa = PBXBuildFile; fileRef = 5AF6F3E1219A4319BA4069A4 /* /Users/user/dev/c/qt-mobile/qt-mobile/main.cpp */; };
+		945372381BEB426FB0282C65 /* /Users/user/dev/c/qt-mobile/qt-mobile/mainwindow.cpp */ = {isa = PBXBuildFile; fileRef = D5A12216371649B1BAE7095C /* /Users/user/dev/c/qt-mobile/qt-mobile/mainwindow.cpp */; };
+		9C46BD8FC4A448D8A2ED8D92 /* /Users/user/dev/c/qt-mobile/qt-mobile/mainwindow.ui */ = {isa = PBXBuildFile; fileRef = 090F5ACF1D504A468AF7349D /* /Users/user/dev/c/qt-mobile/qt-mobile/mainwindow.ui */; };
+		BA2586FE909645D9B6EBAD32 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = 673BB1FDCBA9466AA94702A8 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/mocs_compilation.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		22F4BA22ED684B7F8A338423 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		6E4EA47A3DF94666A8B1AFFC /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		8D6415EFFF4F40E5AFB3A47E /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B81AAB2FCC9C494E9EAF0D64 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1DB8AF2EB31F40C9B98823C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6510F600E0584373AB4E1735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A111BDD465DA442A9AA407EC;
+			remoteInfo = ZERO_CHECK;
+		};
+		37D7E774B11647C0A5FA9A4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6510F600E0584373AB4E1735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A111BDD465DA442A9AA407EC;
+			remoteInfo = ZERO_CHECK;
+		};
+		590D367D4ACB42679C1E45A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6510F600E0584373AB4E1735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43FC4EEBB9664D35AF6D309F;
+			remoteInfo = ALL_BUILD;
+		};
+		61E190BC0935431EBEFA8D6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6510F600E0584373AB4E1735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A111BDD465DA442A9AA407EC;
+			remoteInfo = ZERO_CHECK;
+		};
+		A4F9264B71B84040A8E2DC20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6510F600E0584373AB4E1735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9C21DB7BDE4AB4B2770505;
+			remoteInfo = "qt-mobile";
+		};
+		C59EB4FEF99F4BDA9C6215DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6510F600E0584373AB4E1735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE989DE76EF4CDD9913D8BB;
+			remoteInfo = "qt-mobile_autogen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089BACBB912247F782F81576 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile.dir/Info.plist"; sourceTree = "<absolute>"; };
+		090F5ACF1D504A468AF7349D /* /Users/user/dev/c/qt-mobile/qt-mobile/mainwindow.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mainwindow.ui; path = mainwindow.ui; sourceTree = SOURCE_ROOT; };
+		0CEBBC63094149DDA17E1637 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/include/ui_mainwindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui_mainwindow.h; path = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/include/ui_mainwindow.h"; sourceTree = "<absolute>"; };
+		2DDDBD5D255B48BD90C96191 /* /Users/user/dev/c/qt-mobile/qt-mobile/mainwindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mainwindow.h; path = mainwindow.h; sourceTree = SOURCE_ROOT; };
+		5185F0FE800349769CC6CA3D /* /Users/user/dev/c/qt-mobile/qt-mobile/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5AF6F3E1219A4319BA4069A4 /* /Users/user/dev/c/qt-mobile/qt-mobile/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		61D52337A36C4710A1836345 /* /Users/user/dev/c/qt-mobile/qt-mobile/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		673BB1FDCBA9466AA94702A8 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/mocs_compilation.cpp"; sourceTree = "<absolute>"; };
+		AD4A5A9BD5424242B183809E /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/.qt/launch_screen_storyboards/qt_mobile/LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/.qt/launch_screen_storyboards/qt_mobile/LaunchScreen.storyboard"; sourceTree = "<absolute>"; };
+		C1B6A35797C940899ACC25FA /* qt-mobile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "qt-mobile"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72D89569CDA4077AA79F08F /* /Users/user/dev/c/qt-mobile/qt-mobile/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D5A12216371649B1BAE7095C /* /Users/user/dev/c/qt-mobile/qt-mobile/mainwindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mainwindow.cpp; path = mainwindow.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F455A5E43494449812D2C24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DB065FFDB34CC687BCB057 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CEBBC63094149DDA17E1637 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/include/ui_mainwindow.h */,
+				2DDDBD5D255B48BD90C96191 /* /Users/user/dev/c/qt-mobile/qt-mobile/mainwindow.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		1AD1E1115FEE4BD9A4A41C52 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A308A470BA804493BCFB9F34 /* CMake Rules */,
+				5185F0FE800349769CC6CA3D /* /Users/user/dev/c/qt-mobile/qt-mobile/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3C73A68778A148C9B49568DF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				673BB1FDCBA9466AA94702A8 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/mocs_compilation.cpp */,
+				5AF6F3E1219A4319BA4069A4 /* /Users/user/dev/c/qt-mobile/qt-mobile/main.cpp */,
+				D5A12216371649B1BAE7095C /* /Users/user/dev/c/qt-mobile/qt-mobile/mainwindow.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4F147FD2D31E47138AF12858 /* qt-mobile_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				C80A86801CFE4A159D3FF8A4 /* CMake Rules */,
+				C72D89569CDA4077AA79F08F /* /Users/user/dev/c/qt-mobile/qt-mobile/CMakeLists.txt */,
+			);
+			name = "qt-mobile_autogen";
+			sourceTree = "<group>";
+		};
+		79D606CBAE834584ADD6A7A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD4A5A9BD5424242B183809E /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/.qt/launch_screen_storyboards/qt_mobile/LaunchScreen.storyboard */,
+				089BACBB912247F782F81576 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A308A470BA804493BCFB9F34 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		ADF32624F39B486EBEC02EA4 /* qt-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				3C73A68778A148C9B49568DF /* Source Files */,
+				04DB065FFDB34CC687BCB057 /* Header Files */,
+				79D606CBAE834584ADD6A7A3 /* Resources */,
+				61D52337A36C4710A1836345 /* /Users/user/dev/c/qt-mobile/qt-mobile/CMakeLists.txt */,
+				090F5ACF1D504A468AF7349D /* /Users/user/dev/c/qt-mobile/qt-mobile/mainwindow.ui */,
+			);
+			name = "qt-mobile";
+			sourceTree = "<group>";
+		};
+		B36812876D434A90B42EAB57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C80A86801CFE4A159D3FF8A4 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E871334F9EC04FE68F590EAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F70A7629AE324B90878A5849 = {
+			isa = PBXGroup;
+			children = (
+				ADF32624F39B486EBEC02EA4 /* qt-mobile */,
+				4F147FD2D31E47138AF12858 /* qt-mobile_autogen */,
+				1AD1E1115FEE4BD9A4A41C52 /* ALL_BUILD */,
+				FFEDD4A4C01A47AF916B07F6 /* Products */,
+				B36812876D434A90B42EAB57 /* Frameworks */,
+				E871334F9EC04FE68F590EAD /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		FFEDD4A4C01A47AF916B07F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1B6A35797C940899ACC25FA /* qt-mobile */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E9C21DB7BDE4AB4B2770505 /* qt-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39E00D33F5E74C6384C84041 /* Build configuration list for PBXNativeTarget "qt-mobile" */;
+			buildPhases = (
+				8889A65CBD0A4BD0A3A04B36 /* Resources */,
+				E51655C5737044BAA50B210D /* Sources */,
+				0F455A5E43494449812D2C24 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D66A70EEC9E4D7B87989CB9 /* PBXTargetDependency */,
+				EA27DC1BE1EC4E8F8E54626E /* PBXTargetDependency */,
+			);
+			name = "qt-mobile";
+			productName = "qt-mobile";
+			productReference = C1B6A35797C940899ACC25FA /* qt-mobile */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6510F600E0584373AB4E1735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1520;
+			};
+			buildConfigurationList = AA8D9DB436D64FE1AF9C4B16 /* Build configuration list for PBXProject "qt-mobile" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				8D6415EFFF4F40E5AFB3A47E /* Debug */,
+				B81AAB2FCC9C494E9EAF0D64 /* Release */,
+				22F4BA22ED684B7F8A338423 /* MinSizeRel */,
+				6E4EA47A3DF94666A8B1AFFC /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F70A7629AE324B90878A5849;
+			projectDirPath = "/Users/user/dev/c/qt-mobile/qt-mobile";
+			projectRoot = "";
+			targets = (
+				43FC4EEBB9664D35AF6D309F /* ALL_BUILD */,
+				A111BDD465DA442A9AA407EC /* ZERO_CHECK */,
+				E884ADD3EA1C4B98A602F6BD /* install */,
+				6E9C21DB7BDE4AB4B2770505 /* qt-mobile */,
+				8FE989DE76EF4CDD9913D8BB /* qt-mobile_autogen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		42526889B6A9433F85C5F180 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9078121BF0B2AA82FD9698B4 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  make -f /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  make -f /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  make -f /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  make -f /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CD7A97EDD97C4CA028CDA0BD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FDC80D61891DCA5FBF5B5016 /* Generate CMakeFiles/qt-mobile_autogen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/qt-mobile_autogen";
+			outputPaths = (
+"/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile_autogen","/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/include_Debug/ui_mainwindow.h","/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/include_MinSizeRel/ui_mainwindow.h","/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/include_RelWithDebInfo/ui_mainwindow.h","/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/include_Release/ui_mainwindow.h","/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/mocs_compilation.cpp"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_autogen /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile_autogen.dir/AutogenInfo.json Debug
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_autogen /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile_autogen.dir/AutogenInfo.json Release
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_autogen /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile_autogen.dir/AutogenInfo.json MinSizeRel
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_autogen /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile_autogen.dir/AutogenInfo.json RelWithDebInfo
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8889A65CBD0A4BD0A3A04B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CDCC17DF804DE09DA73722 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/.qt/launch_screen_storyboards/qt_mobile/LaunchScreen.storyboard */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E51655C5737044BAA50B210D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2586FE909645D9B6EBAD32 /* /Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/mocs_compilation.cpp */,
+				8CE4C17FFA594AD8ACDA3017 /* /Users/user/dev/c/qt-mobile/qt-mobile/main.cpp */,
+				945372381BEB426FB0282C65 /* /Users/user/dev/c/qt-mobile/qt-mobile/mainwindow.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2044394C42E048AF89804FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A111BDD465DA442A9AA407EC /* ZERO_CHECK */;
+			targetProxy = 1DB8AF2EB31F40C9B98823C6 /* PBXContainerItemProxy */;
+		};
+		5E8E3C48D65C4EDAB442556D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9C21DB7BDE4AB4B2770505 /* qt-mobile */;
+			targetProxy = A4F9264B71B84040A8E2DC20 /* PBXContainerItemProxy */;
+		};
+		6E0BDAB59DCF4D6286CBAF06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A111BDD465DA442A9AA407EC /* ZERO_CHECK */;
+			targetProxy = 37D7E774B11647C0A5FA9A4D /* PBXContainerItemProxy */;
+		};
+		8D66A70EEC9E4D7B87989CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FE989DE76EF4CDD9913D8BB /* qt-mobile_autogen */;
+			targetProxy = C59EB4FEF99F4BDA9C6215DF /* PBXContainerItemProxy */;
+		};
+		95AC8B0072744984BEC8C2BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43FC4EEBB9664D35AF6D309F /* ALL_BUILD */;
+			targetProxy = 590D367D4ACB42679C1E45A7 /* PBXContainerItemProxy */;
+		};
+		EA27DC1BE1EC4E8F8E54626E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A111BDD465DA442A9AA407EC /* ZERO_CHECK */;
+			targetProxy = 61E190BC0935431EBEFA8D6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02CB27DF6408450890D391BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		04C21EF035B5456FA6A83DE2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		18E2DBC21671499D979D301C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				DEVELOPMENT_TEAM = Z86Q9695LN;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/include_MinSizeRel","$(inherited)");
+				INFOPLIST_FILE = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile.dir/Info.plist";
+				INSTALL_PATH = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/platforms/objects-Release/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Release/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/iconengines/objects-Release/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Release/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Widgets_resources_1/.rcc/qrc_qstyle.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Widgets_resources_2/.rcc/qrc_qstyle1.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Widgets_resources_3/.rcc/qrc_qmessagebox.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Gui_resources_1/.rcc/qrc_qpdf.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Gui_resources_2/.rcc/qrc_gui_shaders.cpp.o",/Users/user/Qt/6.6.2/ios/lib/libQt6Core.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Widgets.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqgif.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqico.a,/Users/user/Qt/6.6.2/ios/plugins/platforms/libqios.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqjpeg.a,/Users/user/Qt/6.6.2/ios/plugins/iconengines/libqsvgicon.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqsvg.a,"-framework AudioToolbox","-framework QuartzCore",/Users/user/Qt/6.6.2/ios/lib/libQt6OpenGL.a,"-framework AssetsLibrary","-framework UniformTypeIdentifiers","-framework Photos",/Users/user/Qt/6.6.2/ios/lib/libQt6BundledLibjpeg.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Svg.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Gui.a,"-framework OpenGLES","-framework ImageIO","-framework CoreGraphics","-framework CoreText","-framework Metal",/Users/user/Qt/6.6.2/ios/lib/libQt6BundledHarfbuzz.a,/Users/user/Qt/6.6.2/ios/lib/libQt6BundledFreetype.a,/Users/user/Qt/6.6.2/ios/lib/libQt6BundledLibpng.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Core.a,"-lz","-framework IOKit","-framework CoreFoundation","-framework Foundation","-lm",/Users/user/Qt/6.6.2/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.f574efcd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "qt-mobile";
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/user/Qt/6.6.2/ios/include/QtCore,/Users/user/Qt/6.6.2/ios/include,"/Users/user/Qt/6.6.2/ios/mkspecs/macx-ios-clang",/Users/user/Qt/6.6.2/ios/include/QtWidgets,/Users/user/Qt/6.6.2/ios/include/QtGui,"$(inherited)");
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_TEMP_DIR = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/build/qt-mobile.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		22F92E9B2FD940F48BBB09B1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphonesimulator;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/build";
+			};
+			name = RelWithDebInfo;
+		};
+		2C551319275249ACBAC692FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/Release${EFFECTIVE_PLATFORM_NAME}";
+				DEVELOPMENT_TEAM = Z86Q9695LN;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/include_Release","$(inherited)");
+				INFOPLIST_FILE = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile.dir/Info.plist";
+				INSTALL_PATH = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/platforms/objects-Release/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Release/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/iconengines/objects-Release/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Release/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Widgets_resources_1/.rcc/qrc_qstyle.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Widgets_resources_2/.rcc/qrc_qstyle1.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Widgets_resources_3/.rcc/qrc_qmessagebox.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Gui_resources_1/.rcc/qrc_qpdf.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Gui_resources_2/.rcc/qrc_gui_shaders.cpp.o",/Users/user/Qt/6.6.2/ios/lib/libQt6Core.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Widgets.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqgif.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqico.a,/Users/user/Qt/6.6.2/ios/plugins/platforms/libqios.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqjpeg.a,/Users/user/Qt/6.6.2/ios/plugins/iconengines/libqsvgicon.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqsvg.a,"-framework AudioToolbox","-framework QuartzCore",/Users/user/Qt/6.6.2/ios/lib/libQt6OpenGL.a,"-framework AssetsLibrary","-framework UniformTypeIdentifiers","-framework Photos",/Users/user/Qt/6.6.2/ios/lib/libQt6BundledLibjpeg.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Svg.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Gui.a,"-framework OpenGLES","-framework ImageIO","-framework CoreGraphics","-framework CoreText","-framework Metal",/Users/user/Qt/6.6.2/ios/lib/libQt6BundledHarfbuzz.a,/Users/user/Qt/6.6.2/ios/lib/libQt6BundledFreetype.a,/Users/user/Qt/6.6.2/ios/lib/libQt6BundledLibpng.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Core.a,"-lz","-framework IOKit","-framework CoreFoundation","-framework Foundation","-lm",/Users/user/Qt/6.6.2/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.f574efcd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "qt-mobile";
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/user/Qt/6.6.2/ios/include/QtCore,/Users/user/Qt/6.6.2/ios/include,"/Users/user/Qt/6.6.2/ios/mkspecs/macx-ios-clang",/Users/user/Qt/6.6.2/ios/include/QtWidgets,/Users/user/Qt/6.6.2/ios/include/QtGui,"$(inherited)");
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_TEMP_DIR = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/build/qt-mobile.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		35235BB36F0C491FA1C09B6B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				DEVELOPMENT_TEAM = Z86Q9695LN;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/include_RelWithDebInfo","$(inherited)");
+				INFOPLIST_FILE = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile.dir/Info.plist";
+				INSTALL_PATH = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/platforms/objects-Release/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Release/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/iconengines/objects-Release/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Release/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Widgets_resources_1/.rcc/qrc_qstyle.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Widgets_resources_2/.rcc/qrc_qstyle1.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Widgets_resources_3/.rcc/qrc_qmessagebox.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Gui_resources_1/.rcc/qrc_qpdf.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Release/Gui_resources_2/.rcc/qrc_gui_shaders.cpp.o",/Users/user/Qt/6.6.2/ios/lib/libQt6Core.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Widgets.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqgif.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqico.a,/Users/user/Qt/6.6.2/ios/plugins/platforms/libqios.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqjpeg.a,/Users/user/Qt/6.6.2/ios/plugins/iconengines/libqsvgicon.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqsvg.a,"-framework AudioToolbox","-framework QuartzCore",/Users/user/Qt/6.6.2/ios/lib/libQt6OpenGL.a,"-framework AssetsLibrary","-framework UniformTypeIdentifiers","-framework Photos",/Users/user/Qt/6.6.2/ios/lib/libQt6BundledLibjpeg.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Svg.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Gui.a,"-framework OpenGLES","-framework ImageIO","-framework CoreGraphics","-framework CoreText","-framework Metal",/Users/user/Qt/6.6.2/ios/lib/libQt6BundledHarfbuzz.a,/Users/user/Qt/6.6.2/ios/lib/libQt6BundledFreetype.a,/Users/user/Qt/6.6.2/ios/lib/libQt6BundledLibpng.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Core.a,"-lz","-framework IOKit","-framework CoreFoundation","-framework Foundation","-lm",/Users/user/Qt/6.6.2/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.f574efcd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "qt-mobile";
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/user/Qt/6.6.2/ios/include/QtCore,/Users/user/Qt/6.6.2/ios/include,"/Users/user/Qt/6.6.2/ios/mkspecs/macx-ios-clang",/Users/user/Qt/6.6.2/ios/include/QtWidgets,/Users/user/Qt/6.6.2/ios/include/QtGui,"$(inherited)");
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_TEMP_DIR = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/build/qt-mobile.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		403E2305609E4C0F902D596B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		40D41FBFDD4E4AD89AA0291D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		42550481A63741F4A6CCE65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "qt-mobile_autogen";
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4947AD8656C04F148DFBD024 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphonesimulator;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/build";
+			};
+			name = MinSizeRel;
+		};
+		4A15DF2F5A0C41DE86EFDFB3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4F1FED4CD19E46F8B0A8F02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6330A44BBC7B4B2F87F48DF4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		63BDB3BDFC7A488AB8AF5D29 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7BD0EDD64C2C4453AE36CB0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/build";
+			};
+			name = Debug;
+		};
+		81E4E34979A94B40B760AC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/Debug${EFFECTIVE_PLATFORM_NAME}";
+				DEVELOPMENT_TEAM = Z86Q9695LN;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile_autogen/include_Debug","$(inherited)");
+				INFOPLIST_FILE = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/CMakeFiles/qt-mobile.dir/Info.plist";
+				INSTALL_PATH = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG    '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Debug/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Debug/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/platforms/objects-Debug/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Debug/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/iconengines/objects-Debug/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/plugins/imageformats/objects-Debug/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Debug/Widgets_resources_1/.rcc/qrc_qstyle.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Debug/Widgets_resources_2/.rcc/qrc_qstyle1.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Debug/Widgets_resources_3/.rcc/qrc_qmessagebox.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Debug/Gui_resources_1/.rcc/qrc_qpdf.cpp.o","/Users/user/Qt/6.6.2/ios/lib/objects-Debug/Gui_resources_2/.rcc/qrc_gui_shaders.cpp.o",/Users/user/Qt/6.6.2/ios/lib/libQt6Core_debug.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Widgets_debug.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqgif_debug.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqico_debug.a,/Users/user/Qt/6.6.2/ios/plugins/platforms/libqios_debug.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqjpeg_debug.a,/Users/user/Qt/6.6.2/ios/plugins/iconengines/libqsvgicon_debug.a,/Users/user/Qt/6.6.2/ios/plugins/imageformats/libqsvg_debug.a,"-framework AudioToolbox","-framework QuartzCore",/Users/user/Qt/6.6.2/ios/lib/libQt6OpenGL_debug.a,"-framework AssetsLibrary","-framework UniformTypeIdentifiers","-framework Photos",/Users/user/Qt/6.6.2/ios/lib/libQt6BundledLibjpeg_debug.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Svg_debug.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Gui_debug.a,"-framework OpenGLES","-framework ImageIO","-framework CoreGraphics","-framework CoreText","-framework Metal",/Users/user/Qt/6.6.2/ios/lib/libQt6BundledHarfbuzz_debug.a,/Users/user/Qt/6.6.2/ios/lib/libQt6BundledFreetype_debug.a,/Users/user/Qt/6.6.2/ios/lib/libQt6BundledLibpng_debug.a,/Users/user/Qt/6.6.2/ios/lib/libQt6Core_debug.a,"-lz","-framework IOKit","-framework CoreFoundation","-framework Foundation","-lm",/Users/user/Qt/6.6.2/ios/lib/libQt6BundledPcre2_debug.a,"-framework MobileCoreServices","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.f574efcd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "qt-mobile";
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/user/Qt/6.6.2/ios/include/QtCore,/Users/user/Qt/6.6.2/ios/include,"/Users/user/Qt/6.6.2/ios/mkspecs/macx-ios-clang",/Users/user/Qt/6.6.2/ios/include/QtWidgets,/Users/user/Qt/6.6.2/ios/include/QtGui,"$(inherited)");
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_TEMP_DIR = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/build/qt-mobile.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A63458682BD04DC18E31E8CA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "qt-mobile_autogen";
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AA11C5AB325942528C1A6A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphonesimulator;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/build";
+			};
+			name = Release;
+		};
+		ABBDB18CAEF343BFB0F279AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "qt-mobile_autogen";
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C45CDBA14AB349BF99AAAC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CAC2FBFF1DFB4780B00ADBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D21D77A4AEE447EBA15AF236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DF79A47D05BB4696A8DC28C6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F1447A5A0DFA4312B5983AA5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "qt-mobile_autogen";
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		311172560F644D4E8CC90229 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45CDBA14AB349BF99AAAC02 /* Debug */,
+				D21D77A4AEE447EBA15AF236 /* Release */,
+				403E2305609E4C0F902D596B /* MinSizeRel */,
+				63BDB3BDFC7A488AB8AF5D29 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		39E00D33F5E74C6384C84041 /* Build configuration list for PBXNativeTarget "qt-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E4E34979A94B40B760AC1F /* Debug */,
+				2C551319275249ACBAC692FA /* Release */,
+				18E2DBC21671499D979D301C /* MinSizeRel */,
+				35235BB36F0C491FA1C09B6B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		68ECCA0E6361497386B56000 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1FED4CD19E46F8B0A8F02B /* Debug */,
+				CAC2FBFF1DFB4780B00ADBA5 /* Release */,
+				4A15DF2F5A0C41DE86EFDFB3 /* MinSizeRel */,
+				04C21EF035B5456FA6A83DE2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		90800CB6CF5847B489D0BB8B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D41FBFDD4E4AD89AA0291D /* Debug */,
+				02CB27DF6408450890D391BF /* Release */,
+				DF79A47D05BB4696A8DC28C6 /* MinSizeRel */,
+				6330A44BBC7B4B2F87F48DF4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA8D9DB436D64FE1AF9C4B16 /* Build configuration list for PBXProject "qt-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BD0EDD64C2C4453AE36CB0A /* Debug */,
+				AA11C5AB325942528C1A6A9F /* Release */,
+				4947AD8656C04F148DFBD024 /* MinSizeRel */,
+				22F92E9B2FD940F48BBB09B1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA14D0CDEF384A5ABAA077C4 /* Build configuration list for PBXAggregateTarget "qt-mobile_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBDB18CAEF343BFB0F279AE /* Debug */,
+				42550481A63741F4A6CCE65C /* Release */,
+				A63458682BD04DC18E31E8CA /* MinSizeRel */,
+				F1447A5A0DFA4312B5983AA5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6510F600E0584373AB4E1735 /* Project object */;
+}
