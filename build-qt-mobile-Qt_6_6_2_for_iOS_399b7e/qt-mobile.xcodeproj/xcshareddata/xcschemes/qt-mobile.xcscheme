@@ -17,7 +17,7 @@
             >
             <BuildableReference
                BuildableIdentifier="primary"
-               BlueprintIdentifier="6E9C21DB7BDE4AB4B2770505"
+               BlueprintIdentifier="1A8297FF1B1249D592ABF828"
                BuildableName="qt-mobile"
                BlueprintName="qt-mobile"
                ReferencedContainer="container:/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile.xcodeproj"/>
@@ -34,7 +34,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier="primary"
-            BlueprintIdentifier="6E9C21DB7BDE4AB4B2770505"
+            BlueprintIdentifier="1A8297FF1B1249D592ABF828"
             BuildableName="qt-mobile"
             BlueprintName="qt-mobile"
             ReferencedContainer="container:/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile.xcodeproj"/>
@@ -57,7 +57,7 @@
          >
          <BuildableReference
             BuildableIdentifier="primary"
-            BlueprintIdentifier="6E9C21DB7BDE4AB4B2770505"
+            BlueprintIdentifier="1A8297FF1B1249D592ABF828"
             BuildableName="qt-mobile"
             BlueprintName="qt-mobile"
             ReferencedContainer="container:/Users/user/dev/c/qt-mobile/build-qt-mobile-Qt_6_6_2_for_iOS_399b7e/qt-mobile.xcodeproj"/>
