@@ -37,7 +37,20 @@
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>押してね！</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>160</y>
+      <width>231</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>別のウインドウに移動するよ！！</string>
     </property>
    </widget>
   </widget>

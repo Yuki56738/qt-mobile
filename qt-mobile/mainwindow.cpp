@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "form1.h"
+
 
 bool flag = false;
 MainWindow::MainWindow(QWidget *parent)
@@ -8,6 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
 
     ui->setupUi(this);
+
 }
 
 MainWindow::~MainWindow()
@@ -24,5 +27,11 @@ void MainWindow::on_pushButton_clicked()
         ui->label->setText("Hello, Qt!!");
         flag = false;
     }
+}
+
+
+void MainWindow::on_pushButton_2_clicked()
+{
+
 }
 
