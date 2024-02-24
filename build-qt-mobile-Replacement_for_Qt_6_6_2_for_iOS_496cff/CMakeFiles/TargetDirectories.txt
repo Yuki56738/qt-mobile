@@ -1,5 +1,0 @@
-/Users/yuki/CloneHub/qt-mobile/build-qt-mobile-Replacement_for_Qt_6_6_2_for_iOS_496cff/CMakeFiles/qt-mobile.dir
-/Users/yuki/CloneHub/qt-mobile/build-qt-mobile-Replacement_for_Qt_6_6_2_for_iOS_496cff/CMakeFiles/install.dir
-/Users/yuki/CloneHub/qt-mobile/build-qt-mobile-Replacement_for_Qt_6_6_2_for_iOS_496cff/CMakeFiles/qt-mobile_autogen.dir
-/Users/yuki/CloneHub/qt-mobile/build-qt-mobile-Replacement_for_Qt_6_6_2_for_iOS_496cff/CMakeFiles/ALL_BUILD.dir
-/Users/yuki/CloneHub/qt-mobile/build-qt-mobile-Replacement_for_Qt_6_6_2_for_iOS_496cff/CMakeFiles/ZERO_CHECK.dir
