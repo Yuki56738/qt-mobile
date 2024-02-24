@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Target 'qt-mobile' in project 'qt-mobile'
+➜ Explicit dependency on target 'qt-mobile_autogen' in project 'qt-mobile'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'qt-mobile'
+Target 'qt-mobile_autogen' in project 'qt-mobile'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'qt-mobile'
+Target 'ZERO_CHECK' in project 'qt-mobile' (no dependencies)
