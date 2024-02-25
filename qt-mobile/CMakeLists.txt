@@ -23,6 +23,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(qt-mobile
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        form.ui
+
 
 
 
